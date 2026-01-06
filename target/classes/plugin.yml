@@ -1,8 +1,0 @@
-name: PlayMoney
-version: 20240906
-main: jp.wolfx.playmoney.playmoney
-api-version: 1.13
-folia-supported: true
-
-commands:
-  pm:
