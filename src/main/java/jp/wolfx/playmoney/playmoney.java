@@ -38,7 +38,7 @@ public final class playmoney extends JavaPlugin {
     @Override
     public void onEnable() {
         if (!setupEconomy()) {
-            getLogger().severe("[PlayMoney] 未检测到 Vault 或经济系统，插件已禁用。");
+            getLogger().severe("未检测到 Vault 或经济系统，插件已禁用。");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
@@ -49,7 +49,7 @@ public final class playmoney extends JavaPlugin {
 
         startMinuteCounter();
 
-        getLogger().info("[PlayMoney] 启动成功。每分钟发放: " + moneyPerMinute);
+        getLogger().info("启动成功。每分钟发放: " + moneyPerMinute);
     }
 
     private boolean setupEconomy() {
