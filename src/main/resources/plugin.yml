@@ -1,5 +1,5 @@
 name: PlayMoney
-version: 20240906
+version: ${project.version}
 main: jp.wolfx.playmoney.playmoney
 api-version: 1.13
 folia-supported: true
